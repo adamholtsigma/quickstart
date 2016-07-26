@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: 'app/app.component.html'
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
     // [] property binding - component to dom
