@@ -7,12 +7,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
     // [] property binding - component to dom
     // () event binding - dom to component
+    // {} rendering a value
 
     title = 'Customer App';
     name = 'Adam';
     adamsColor = 'red';
 
     changeColor() {
-        this.adamsColor = this.adamsColor === 'blue' ? 'red' : 'blue'
+        this.adamsColor = this.adamsColor === 'blue' ? 'red' : 'blue';
     }
  }
