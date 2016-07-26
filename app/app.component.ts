@@ -14,6 +14,6 @@ export class AppComponent {
     adamsColor = 'red';
 
     changeColor() {
-        this.adamsColor = this.adamsColor === 'blue' ? 'red' : 'blue';
+        this.adamsColor = this.adamsColor === 'blue' ? 'yellow' : 'blue';
     }
  }
